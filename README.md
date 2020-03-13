@@ -25,7 +25,7 @@ For this project you'll be adding quotes to the DOM using Javascript.  You will 
 3. The quote author's name should be prefaced with a hyphen.  (ex. "- AUTHOR NAME")
 
 ### Bonus
-- Change the picture randomly to other Albery Einstein pictures
+- Change the picture randomly to other Albert Einstein pictures
 
 ## Project 3: Resume
 Search online for a resume template and recreate it in HTML and CSS.  For your personal information (e.g. address, phone number, etc...) you can utilize fake information.
