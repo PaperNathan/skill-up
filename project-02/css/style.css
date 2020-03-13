@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightcoral;
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+
+    display: flex;
+
+    background-color: azure;
+
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, .5);
+}
+
+.picture {
+    height: 400px;
+    flex: 1;
+
+    overflow: hidden;
+
+    background: url('../assets/albert-einstein.jpg');
+    background-size: auto 100%;
+}
+
+.quote-container {
+    height: 400px;
+    flex: 1;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.author {
+    align-self: flex-end;
+}
