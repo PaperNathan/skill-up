@@ -36,3 +36,25 @@ Search online for a resume template and recreate it in HTML and CSS.  For your p
 
 ### Bonus
 - Use hover effects to animate parts of your resume.
+
+## Project 4: Meet the Team
+Most websites have a section where you can meet the people that have created the product.  You'll need to write a function that allow us to cycle through these employees and show their information.
+
+### Project Requirements 
+1. Don't edit the HTML or CSS file
+2. Start your function after the prewritten javascript
+
+### Bonus
+- Add your picture to the file structure and your information to the object **NOTE: This means you must edit the previously written javascript.**
+- Add an extra button to show your information **NOTE: This means you must edit the HTML.**
+
+---
+
+## Tips
+For all of these you'll be following the basic process:
+1. Draw your plan
+2. Make an HTML Skeleton
+3. Style your Skeleton (CSS)
+4. Write your Interactions (Javascript)
+
+Also, when interacting with your DOM remember it's only 2 steps: Target, Change.

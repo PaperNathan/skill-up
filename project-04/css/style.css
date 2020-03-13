@@ -1,0 +1,83 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightcoral;
+}
+
+.person {
+    height: 400px;
+    width: 600px;
+
+    margin-bottom: 30px;
+
+    display: flex;
+
+    background-color: azure;
+
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, .5);
+}
+
+.picture {
+    height: 400px;
+    flex: 1;
+
+    background-size: 100% auto;
+    overflow: hidden;
+}
+
+.information {
+    height: 400px;
+    flex: 1;
+
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.information .name {
+    font-size: 26px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+.information .job {
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+
+    color: grey;
+
+    margin-bottom: 20px;
+}
+
+.person-selector {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.select {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+
+    background-color: red;
+}
+
+.select.active {
+    background-color: darkred;
+}
+
+.select:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
